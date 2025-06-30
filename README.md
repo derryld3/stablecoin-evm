@@ -156,6 +156,11 @@ yarn forge:broadcast scripts/deploy/deploy-fiat-token.s.sol --rpc-url <testnet O
 yarn forge:verify scripts/deploy/deploy-fiat-token.s.sol --rpc-url <testnet OR mainnet> --legacy
 ```
 
+For a Blockscout flavored block explorer, use the following command:
+```sh
+yarn forge:verify-blockscout scripts/deploy/deploy-fiat-token.s.sol --rpc-url <testnet OR mainnet> --legacy
+```
+
 ## Contracts
 
 The FiatToken contracts adheres to OpenZeppelin's
